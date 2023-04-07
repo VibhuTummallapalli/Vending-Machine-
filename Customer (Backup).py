@@ -1,5 +1,5 @@
 #entry message
-Balance = 0j
+Balance = 0
 Price = 0
 item = ''
 A1 = 0.50
