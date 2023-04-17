@@ -1,7 +1,7 @@
 # Define the initial stock and price of each product
 product_stock = {'Coke': {'stock': 5, 'price': 1.50},
                  'Chips': {'stock': 10, 'price': 1.25},
-                 'Candy': {'stock': 7, 'price': .75}}
+                 'Candy': {'stock': 0, 'price': .75}}
 
 # Define the initial total profit
 total_profit = 0.0
