@@ -1,5 +1,5 @@
 # Define the initial stock of each product
-product_stock = {'coke': 5, 'pepsi': 10, 'sprite': 7}
+product_stock = {'Coke': 5, 'Chips': 10, 'Candy': 0}
 
 # Define a function to check the current stock of a product
 def check_stock(product_name):
@@ -12,6 +12,6 @@ def check_stock(product_name):
 # Example usage
 
 
-print("Current stock of Coke:", check_stock('coke'))
-print("Current stock of Pepsi:", check_stock('pepsi'))
-print("Current stock of Fanta:", check_stock('fanta'))
+print("Current stock of Coke:", check_stock('Coke'))
+print("Current stock of Chips:", check_stock('Chips'))
+print("Current stock of Candy:", check_stock('Candy'))
