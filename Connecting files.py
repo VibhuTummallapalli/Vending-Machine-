@@ -29,7 +29,7 @@ while True:
         continue
     if stock[item_name] == 0:
         print("Out of stock")
-        continue
+        break
     item_price = items[item_name]
     initial_stock_level = stock[item_name]
     stock[item_name] -= 1
